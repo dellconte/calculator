@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    font-size: 62.5%;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  /*Caracteristicas fora do APP-Calculator*/
+  body {
+    height: 100vh;
+    background: #363649;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /*Caracteristicas dentro APP-Calculator*/
+  #app-calculator {
+    background-color: #2D2A37;
+    width: 356px;
+    height: 566px;
+    border-radius: 28px;
+  }
+  
+  /*Caracteristicas do display do APP-Calculator*/
+  #display {
+    margin: 5.4rem 3.2rem 2.6rem 5.3rem;
+  }
+  
+  #display #historic {
+    font-size: 2rem;
+    color: #6B6B6B;
+    text-align: right;
+    margin-bottom: 8px;
+  }  
+  
+  #result {
+    display: flex;
+    justify-content: space-between  ;
+  }
+  
+  #result span {
+    font-size: 36px;
+    font-weight: 200;
+    color: #6B6B6B;
+  }
+  
+  #result span:last-child {
+    font-size: 36px;
+    font-weight: 400;
+    color: #EBEBEB;
+  }
+  
+  /*Alinha os botões em colunas*/
+  #buttons {
+    display: grid;
+    grid-template-columns: max-content max-content max-content max-content;
+    margin: 0 3.2rem 3.2rem 3.2rem;
+  }
+  
+  /*Arredonda o botão*/
+  #buttons * {
+    gap: 1.2rem;
+    border-radius: 50%;
+    color: white
+  }
+  
+  /*Define as caracteristicas dos botões*/
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 64px;
+    height: 64px;
+    font-size: 24px;
+    background: #2D2A37;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%);
+    -webkit-box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 11px 7px rgba(0, 0, 0, 0.01), 0px 7px 7px rgba(0, 0, 0, 0.04), 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.26), 0px 0px 2px rgba(0, 0, 0, 0.29), inset 0px 2px 3px rgba(255, 255, 255, 0.06)
+  }
+  
+  .buttons-group-1, .buttons-group-2,
+  .buttons-group-3, .buttons-group-4 {
+    display: flex;
+    flex-direction: column;;
+  }
+ 
+  .buttons-group-2, .buttons-group-3, .buttons-group-4 {
+    margin-left: 12px;
+  }
+  
+  /*Define a COR dos caracteres dos botões*/
+  .buttons-group-1 button, .buttons-group-2 button, 
+  .buttons-group-3 button, .buttons-group-4 button {
+    color: #EBEBEB;
+  }
+  
+  .buttons-group-1 button:first-child {
+    color: #cb850d;
+  }
+
+  .buttons-group-4 button {
+    background: #cc7f27;
+  }
+  
+  .buttons-group-4 button:last-child {
+    background: #cc7f27;
+  }
