@@ -1,16 +1,12 @@
 <h1> Calculator </h1>
 
-<p align="center">
-Programa promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
+<p>Programa promovido pela Rocketseat para ensino de tecnologias WEB.</p>
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
 
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src=".github/preview.jpg" width="70%">
+  <img alt="Calculator" src="assets/calculator.jpg" width="50%">
 </p>
 
 ## 🚀 Tecnologias
@@ -19,8 +15,9 @@ Programa promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
 - Git e Github
 - Figma
 
-## :memo: Licença
 
-Esse projeto está sob a licença MIT.
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-by dellconte
+<p align="center">by dellconte</p>
