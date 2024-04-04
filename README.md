@@ -1,4 +1,4 @@
-h1 align="center"> Calculator </h1>
+<h1> align="center"> Calculator </h1>
 
 <p align="center">
 Programa promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
