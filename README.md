@@ -9,7 +9,7 @@
   <img alt="Calculator" src="assets/calculator.jpg" width="50%">
 </p>
 
-## 🚀 Tecnologias
+## Tecnologias
 - HTML e CSS
 - JavaScript
 - Git e Github
